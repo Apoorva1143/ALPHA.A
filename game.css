@@ -1,0 +1,87 @@
+*body{
+    margin: 0;
+    padding: 0;
+   
+}
+   h1{
+    background-color:#003C43 ;
+    color: white;
+    height:5rem;
+    line-height:5rem ;text-align: center;
+    
+   }
+   .choice
+   {
+    height:200px ;
+    width:200px; 
+    border-radius: 5%; 
+    display: flex;
+    align-items:center;
+    background-color:#78A083;
+    box-shadow:10px 5px 5px #BACD92 ;
+   
+   }
+   .choice:hover{
+    background-color:#135D66 ;
+    box-shadow:10px 5px 5px #77B0AA ;
+   
+   }
+  
+   img{
+    height:150px ;
+    width:150px;
+    object-fit: cover; 
+    border-radius:5% ;
+   
+   }
+   .choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10rem;
+   }
+   
+   .score-board 
+   {
+    display: flex;
+    text-align: center;
+    gap:5rem;
+    position:absolute;
+    right:40%;
+    margin-top:5rem ;
+    font-size: 2rem;
+    font-weight:bold;
+    color:black;;
+}
+.score{}
+
+.msgcontainer{
+
+}
+#user-score,
+#comp-score
+{
+font-size:3rem
+}
+#msg{
+
+ height:2rem;
+ background-color: #003C43;
+ position:absolute;
+ right:40%;
+ color:#fcf9f9;
+ padding-top: 1rem;
+ padding-inline: 3rem;border-radius:5% ;
+ 
+
+}#msg:hover{
+   background-color:#0D9276 ;
+    color:black;
+    text-size-adjust: 10%;
+    box-shadow:10px 5px 5px #A1C398 ;
+}
+.msg-container{
+   
+margin-top:10rem; ;
+
+}
